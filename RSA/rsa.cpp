@@ -163,7 +163,7 @@ e is a random number (which serves as the public key) with:
 This is to ensure that a unique private key corresponding to
 'e' exists.
 
-The private key 'd' is the multiplicative inverse of e modular n
+The private key 'd' is the multiplicative inverse of e modular phi(n)
 
 However, 'e' and 'd' are incomplete without n
 Hence, public key is {e,n} and private key is {d,n}
